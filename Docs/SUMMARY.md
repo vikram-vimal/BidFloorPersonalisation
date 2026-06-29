@@ -1,4 +1,6 @@
-# Table of contents
+# Summary
+
+* [Bid Floor Personalisation](README.md)
 
 ## Ads concepts
 
