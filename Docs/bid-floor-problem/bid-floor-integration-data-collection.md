@@ -2,7 +2,7 @@
 
 This document lists the **raw events and JSON payload fields** the client must emit through the GSL SDK to support bid floor optimisation.
 
-It covers source data only. Derived features — interval IDs, outcome labels, latency calculations, error bucketing, rolling averages, hour/weekend flags, and forward-filled counters — are built downstream and are documented in [Data requirements](data-requirements.md).
+It covers source data only. Derived features — interval IDs, outcome labels, latency calculations, error bucketing, rolling averages, hour/weekend flags, and forward-filled counters — are built downstream and are documented in [Data requirements](data-input-ml.md).
 
 {% hint style="info" %}
 **Prerequisite:** [Ad lifecycle](../ads-concept/ad-lifecycle.md) — event names and sequencing.
@@ -42,7 +42,7 @@ Every event payload must include these top-level fields.
 | `country_code` | string | ISO country code (e.g. `US`) |
 | `time_zone` | string | timezone name |
 | `device_ram` | int | RAM size in GB |
-| `device_make_model` | string | Device Model
+| `device_make_model` | string | Device Model |
 
 **Example envelope fragment:**
 
@@ -353,7 +353,7 @@ Single table mapping every raw collection field to its source event and JSON pat
 
 ## Explicitly out of scope (derived downstream)
 
-The following fields from [Data requirements](data-requirements.md) are **not** collected at source. They are computed by GSL during feature engineering:
+The following fields from [Data requirements](data-input-ml.md) are **not** collected at source. They are computed by GSL during feature engineering:
 
 | Derived field | How it is built |
 | --- | --- |
@@ -379,8 +379,8 @@ The following fields from [Data requirements](data-requirements.md) are **not** 
 
 ## Related pages
 
-{% content-ref url="data-requirements.md" %}
-[data-requirements.md](data-requirements.md)
+{% content-ref url="data-input-ml.md" %}
+[data-input-ml.md](data-input-ml.md)
 {% endcontent-ref %}
 
 {% content-ref url="bid-floor-integration.md" %}

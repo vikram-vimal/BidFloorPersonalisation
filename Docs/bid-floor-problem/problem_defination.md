@@ -89,8 +89,8 @@ Bid floor personalisation addresses this gap by replacing static configuration w
 
 ## What's next
 
-{% content-ref url="data-requirements.md" %}
-[data-requirements.md](data-requirements.md)
+{% content-ref url="data-input-ml.md" %}
+[data-input-ml.md](data-input-ml.md)
 {% endcontent-ref %}
 
 {% content-ref url="bid-floor-integration.md" %}

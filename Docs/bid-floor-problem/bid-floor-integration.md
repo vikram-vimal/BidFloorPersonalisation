@@ -4,6 +4,7 @@ This document defines what is required to integrate **GSL SmartFloors** (GSL Bid
 
 {% hint style="info" %}
 **Related pages**
+
 - [Integration testing](bid-floor-integration-testing.md) — verification workflow, testability requirements, and release readiness
 - [Risks and challenges](bid-floor-risks-and-challenges.md) — known integration risks and mitigations
 - [Problem definition](problem_defination.md) — business context for bid floor personalisation
@@ -80,7 +81,7 @@ Integration follows a six-stage flow. Each stage is a hard requirement — not a
 | **3. Ad routing** | Request and display ads through the GSL SDK integration path. Do not bypass GSL with direct native mediation SDK calls for supported placements. | Client (engineering) |
 | **4. Event logging** | Log ad-related events through the GSL SDK so GSL BidFloor receives the monetisation signals required for validation and operation. | Client (engineering) |
 | **5. Holdout assignment** | Configure a seed to split users into holdout and GSL BidFloor cohorts. Holdout may be 0–50%. Holdout behaviour must function correctly when GSL uses a designated test user ID during verification. | Client + GSL |
-| **6. Build submission** | Submit a stable standard build for GSL review. Release proceeds only after GSL confirms the integration is valid. | Client (engineering + release) + GSL|
+| **6. Build submission** | Submit a stable standard build for GSL review. Release proceeds only after GSL confirms the integration is valid. | Client (engineering + release) + GSL |
 
 ---
 

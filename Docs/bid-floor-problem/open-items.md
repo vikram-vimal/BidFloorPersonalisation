@@ -1,4 +1,4 @@
-## Open items
+# Open Items
 
 The following items require clarification from GSL before this risk register can be considered complete:
 

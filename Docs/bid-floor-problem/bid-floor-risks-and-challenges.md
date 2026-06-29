@@ -4,6 +4,7 @@ This document captures known integration risks, their impact, and mitigations. I
 
 {% hint style="info" %}
 **Related pages**
+
 - [Integration specification](bid-floor-integration.md) — architecture requirements
 - [Integration testing](bid-floor-integration-testing.md) — verification workflow and testability requirements
 {% endhint %}
