@@ -2,22 +2,6 @@
 
 Mobile game monetization depends on a chain of systems — your game, a mediation layer, and demand from ad networks — working together in milliseconds every time a player reaches an ad moment. This page gives you the mental model you need before diving into integration, bid floors, or analytics.
 
-{% hint style="info" %}
-**Who this is for:** Game engineers, monetization leads, and product managers who need a shared vocabulary for how ads work in free-to-play games.
-{% endhint %}
-
----
-
-## What this space covers
-
-| Topic | What you'll learn |
-| --- | --- |
-| [Glossary](glossary.md) | Definitions for ad units, bid floors, placements, and industry roles |
-| [Ad formats](ad-formats.md) | Banner, interstitial, and rewarded video — when to use each |
-| [Ad lifecycle](ad-lifecycle.md) | Load → watch → revenue loop, including retries and backoff |
-| [Ad metrics](ad-metrics.md) | Delivery, revenue, and auction metrics publishers track daily |
-
----
 
 ## The ecosystem
 
@@ -63,7 +47,7 @@ Older models — **waterfall** (sequential network priority) and **second-price 
 
 ---
 
-## Ad formats at a glance
+## Ad formats
 
 | Format | Visibility | Player action | Typical use |
 | --- | --- | --- | --- |
