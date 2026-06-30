@@ -1,7 +1,5 @@
 # Summary
 
-* [Bid Floor Personalisation](README.md)
-
 ## Ads concepts
 
 * [Core Concepts](ads-concept/ad-in-games.md)
